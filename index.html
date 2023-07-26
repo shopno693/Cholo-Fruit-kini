@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link
+    href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css"
+    rel="stylesheet"
+    type="text/css"
+  />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <body>
+    <nav>
+      <div class="navbar lg:justify-center lg:ml-28  w-4/4 lg:w-3/4 mt-5 rounded-full lg:text-white lg:bg-red-500">
+        <div class="">
+          <div class="dropdown">
+            <label tabindex="0" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </label>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2  bg-black text-white shadow rounded-box w-52"
+            >
+              <li><a>Home</a></li>
+              <li><a>About Us</a></li>
+              <li><a>Shop</a></li>
+              <li><a>All Fruits</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="navbar-start  hidden lg:flex lg:mr-8">
+          <ul class="menu lg:p-0 menu-horizontal ">
+            <li class="lg:mr-4">Home</li>
+            <li class="lg:mr-4">About Us</li>
+            <li class="lg:mr-4">Shop</li>
+            <li class="lg:mr-4">All Fruits</li>
+          </ul>
+        </div>
+        <img class="h-16 mr-2 ml-40 md:ml-60 lg:ml-0" src="./images/logo.png" alt="">
+        <h1 class="mr-16  text-xl font-bold"> Fruit Burst</h1>
+        <div class="hidden lg:block ">
+          <input
+            type="text"
+            name="text"
+            id=""
+            placeholder="Search here"
+            class="lg:px-4 lg:py-1 rounded-full relative ml-60 -top-10 lg:top-0  lg:ml-0 lg:mt-0"
+          />
+          <i
+            class="fa-solid fa-magnifying-glass absolute text-black lg:top-14 top-16 right-8 lg:right-48"
+          ></i>
+        </div>
+      </div>
+    </nav>
+      <!-- nav ends here  -->
